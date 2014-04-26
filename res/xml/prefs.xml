@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:title="Name"
+        android:key="name"
+        android:summary="Enter your name" />
+    
+    <CheckBoxPreference 
+        android:title="Newsletter"
+        android:defaultValue="true"
+        android:key="news"
+        android:summary="Would you like to receive our newsletter?" />
+    
+    <CheckBoxPreference 
+        android:title="Intro Sound"
+        android:defaultValue="true"
+        android:key="introMusic"
+        android:summary="for the splash screen" />
+    
+    <ListPreference 
+        android:title="Operating System"
+        android:key="os" 
+        android:summary="Choose your OS:"
+        android:entries="@array/os"
+        android:entryValues="@array/osValues" />
+</PreferenceScreen>

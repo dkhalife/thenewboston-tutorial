@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="os">
+        <item>Windows 7</item>
+        <item>Linux</item>
+        <item>Android</item>
+    </string-array>
+    <string-array name="osValues">
+        <item>win7</item>
+        <item>lin</item>
+        <item>an</item>
+    </string-array>
+
+</resources>
